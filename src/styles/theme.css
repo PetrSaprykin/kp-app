@@ -1,0 +1,22 @@
+:root {
+  --primary-color: #007bff;
+  --primary-hover: #0056b3;
+  --text-color: #333333;
+  --bg-color: #ffffff;
+  --bg-secondary-color: #eeeeee;
+  --border-color: gray;
+  --border-radius: 12px;
+
+  --font-main: 'Inter', sans-serif;
+  --font-size-sm: 12px;
+  --font-size-md: 14px;
+  --font-size-lg: 16px;
+
+  --shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+
+  --spacing-xs: 3px;
+  --spacing-sm: 6px;
+  --spacing-md: 10px;
+  --spacing-lg: 14px;
+  --spacing-xl: 20px;
+}

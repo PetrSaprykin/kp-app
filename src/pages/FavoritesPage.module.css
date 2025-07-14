@@ -1,0 +1,24 @@
+.page {
+  margin-top: var(--spacing-xl);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: var(--spacing-md);
+  padding: var(--spacing-md);
+  background-color: var(--bg-secondary-color);
+  border-radius: var(--border-radius);
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.empty {
+  margin-top: var(--spacing-xl);
+  text-align: center;
+}
+.title {
+  text-align: center;
+  margin: var(--spacing-lg) 0;
+}
