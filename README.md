@@ -1,11 +1,19 @@
-# React + TypeScript + Vite
+# Задание на стажировку ВК
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Это моё тестовое задание для стажировки ВКонтакте на позицию Web-разработчик (Пётр Сапрыикн)
 
-Currently, two official plugins are available:
+Приложение сделано на стеке react+typescript+mobX, также использовался axios для отправки запросов на сервер и react-router для навигации между страницами. Плюсом стоит eslint и форматтер prettier
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+!!! В проекте я использовал API сервиса TMDB, который в нашей стране работать не хочет, поэтому фильмы в приложении подгружаются только с включенным VPN :/ !!!
+
+Для запуска проекта необходимо:
+
+- склонировать этот репозиторий (или скачать в zip и разархивировать) 
+- открыть терминал из директории проекта и прописать ```npm install``` для установк всех nodejs библиотек
+- запустить приложение, прописав команду ```npm run dev```, после этого можно будет посмотреть по адресу localhost:3000 (или другой порт, если 3000 у вас занят)
+
+Также я загрузил уже сбилженный сайт на хостинг - https://vk-internship.new-devs.ru
+
 
 ## Expanding the ESLint configuration
 
